@@ -19,6 +19,9 @@ module.exports = {
           DEFAULT: 'white'
         }
       },
+      fontFamily: {
+        'sans': 'Poppins'
+      }
     },
     variants: {
       extend: {},
