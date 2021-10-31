@@ -3,9 +3,22 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      green: {
+        DEFAULT: '#74ad49',
+      },
+      blue: {
+        DEFAULT: '#1e2e42'
+      },
+      gray: {
+        DEFAULT: '#ECF0F2'
+      }
+    },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
+  }
 }
