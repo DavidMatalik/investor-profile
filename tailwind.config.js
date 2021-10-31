@@ -14,6 +14,9 @@ module.exports = {
       },
       gray: {
         DEFAULT: '#ECF0F2'
+      },
+      white: {
+        DEFAULT: 'white'
       }
     },
     variants: {
